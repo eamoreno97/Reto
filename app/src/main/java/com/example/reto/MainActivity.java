@@ -179,7 +179,6 @@ public class MainActivity extends AppCompatActivity {
         countDownTimer=new CountDownTimer(timeLeftMilliseconds,1000) {
             @Override
             public void onTick(long millisUntilFinished) {
-                timeLeftMilliseconds=1;
                 Recorder();
             }
             @Override
